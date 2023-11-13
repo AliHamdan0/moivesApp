@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "moviesapp",
-    "slug": "moviesapp",
+    "name": "moviesApp",
+    "slug": "moviesApp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.ali00.moviesApp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "53ad4c39-e91a-4b49-9239-f90398f1122d"
+      }
     }
   }
 }
